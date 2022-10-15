@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* border: 1px solid; */
+    border: 1px solid;
 }
 
 :root {
@@ -54,6 +54,11 @@ button {
     border: none;
     padding: 0.8rem 1.8rem;
     border-radius: 2rem;
+}
+
+button:hover {
+    opacity: 80%;
+    cursor: pointer;
 }
 
 .hero {
@@ -112,9 +117,11 @@ button {
 
 .tracking-features {
     display: flex;
-    margin-top: 5rem;
+    padding-top: 5rem;
     align-items: center;
     gap: 6.875rem;
+    border: 1px solid;
+    max-width: 68.75rem;
 }
 
 .tracking-features-text-content {
@@ -150,13 +157,14 @@ button {
 .supercharge-grid {
     display: flex-box;
     text-align: center;
+    margin-top: 2.5rem;
 }
 
 .supercharge-grids {
     display: grid;
     grid-template-columns: repeat(3, auto);
     gap: 1.875rem;
-    /* padding: 4rem; */
+    padding: 4rem;
     max-width: 68.75rem;
     margin: auto;
 }
@@ -168,7 +176,7 @@ button {
 }
 
 .brands {
-    padding: 5rem;
+    padding: 9rem 5rem;
 }
 
 .brands-container {
@@ -176,6 +184,7 @@ button {
     justify-content: space-between;
     align-items: center;
     max-width: 68.75rem;
+    margin: auto;
 }
 
 .cta {
@@ -186,6 +195,7 @@ button {
     margin: auto;
     max-width: 39.75rem;
     text-align: center;
+    padding: 6rem;
 }
 
 .cta-buttons {
@@ -197,16 +207,20 @@ button {
 
 footer {
     background-color: #F5F6F8;
-    padding: 2.5rem 0;
+    padding: 2.5rem 4rem;
 }
 
 .footer-container {
     display: flex;
+    justify-content: center;
+    max-width: 68.75rem;
+    margin: auto;
 }
 
 .footer-logo {
     width: 3.75rem;
     height: 3.75rem;
+    margin-right: 6.125rem;
 }
 
 .footer-links li {
@@ -216,15 +230,22 @@ footer {
 .footer-container ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    
+    column-gap: 3.625rem;
+    row-gap: 1rem;
+    margin-right: 19.6875rem;
+
 }
 
 .footer-icons {
     display: flex;
     gap: 1.5rem;
+    align-items: flex-start;
 }
 
-.footer-icons img {
-    width: 1.5rem;
-    height: 1.5rem;
+
+@media screen (max-width: 96.5625rem) {
+    .tracking-image {
+        margin: auto;
+    }
+
 }
