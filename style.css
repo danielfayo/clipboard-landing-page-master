@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid; */
+}
+
+:root {
+    --primary: hsl(171, 66%, 44%);
+    --secondary: hsl(233, 100%, 69%);
+    --neutral: hsl(210, 10%, 33%);
+    --acsenct: hsl(201, 11%, 66%);
+    --default: 'Bai Jamjuree', san-serif;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif; 
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center; 
+    color: var(--neutral);
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600; 
+    text-align: center;
+    color: var(--neutral);
+    margin-bottom: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    /* text-align: center; */
+    color: var(--neutral);
+}
+
+p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--acsenct);
+    line-height: 150%;
+}  
+
+button {
+    font-family: var(--default);
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.8rem;
+    border-radius: 2rem;
+}
+
+.hero {
+    padding: 4.375rem 8.125rem  4.375rem;
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 39.75rem;
+    margin: auto;
+}
+
+.hero-p {
+    text-align: center;
+}
+
+.btn1 {
+    background-color: var(--primary);
+}
+
+.btn2 {
+    background-color: var(--secondary);
+}
+
+.hero-logo {
+    margin-bottom: 3.75rem;
+}
+
+.hero-header {
+    margin-bottom: 1.5rem;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2.5rem;
+}
+
+.tracking {
+    padding: 4.375rem 0;
+}
+
+.tracking-text-content {
+    max-width: 39.75rem;
+    margin: auto;
+}
+
+.tracking-p {
+    text-align: center;
+}
+
+.tracking-features {
+    display: flex;
+    margin-top: 5rem;
+    align-items: center;
+    gap: 6.875rem;
+}
+
+.tracking-features-text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    max-width: 25rem;
+}
+
+.tracking-image {
+    margin-left: -2.2rem;
+}
+
+.access {
+    padding: 4.375rem 0;
+}
+
+.access-text-content {
+    max-width: 39.75rem;
+    margin: auto;
+    text-align: center;
+}
+
+.access-image {
+    margin-top: 7.1875rem;
+    text-align: center;
+}
+
+.supercharge-container {
+    padding: ;
+}
+
+.supercharge-grid {
+    display: flex-box;
+    text-align: center;
+}
+
+.supercharge-grids {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.supercharge-text-content {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
