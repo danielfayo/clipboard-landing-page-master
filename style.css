@@ -154,11 +154,77 @@ button {
 
 .supercharge-grids {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, auto);
+    gap: 1.875rem;
+    /* padding: 4rem; */
+    max-width: 68.75rem;
+    margin: auto;
 }
 
 .supercharge-text-content {
     margin: auto;
     text-align: center;
     margin-bottom: 2.5rem;
+}
+
+.brands {
+    padding: 5rem;
+}
+
+.brands-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 68.75rem;
+}
+
+.cta {
+
+}
+
+.cta-container {
+    margin: auto;
+    max-width: 39.75rem;
+    text-align: center;
+}
+
+.cta-buttons {
+    margin-top: 2.5rem;
+    justify-content: center;
+    display: flex;
+    gap: 1.5rem
+}
+
+footer {
+    background-color: #F5F6F8;
+    padding: 2.5rem 0;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-logo {
+    width: 3.75rem;
+    height: 3.75rem;
+}
+
+.footer-links li {
+    list-style: none;
+}
+
+.footer-container ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.footer-icons {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-icons img {
+    width: 1.5rem;
+    height: 1.5rem;
 }
