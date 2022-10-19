@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 :root {
@@ -134,7 +134,7 @@ button:hover {
 }
 
 .tracking-image {
-    /* margin-left: -2.2rem; */
+    margin-left: -2.2rem;
 }
 
 .access {
@@ -236,7 +236,7 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 3.625rem;
     row-gap: 1rem;
-    margin-right: 19.6875rem;
+    margin-right: 18.6875rem;
     color: var(--acsenct);
 
 }
@@ -246,6 +246,44 @@ footer {
     gap: 1.5rem;
 }
 
+@media screen and (max-width: 1024px) {
+    .tracking-image {
+        margin-left: -20%;
+    }
+
+    .tracking-features {
+        gap: 3.875rem;
+    }
+
+    .supercharge-grids {
+        padding: 2rem;
+    }
+
+    .brands {
+        padding: 9rem 3rem;
+    }
+
+    .footer-logo {
+        margin-right: 3.125rem;
+    }
+
+    .footer-container ul {
+        margin-right: 4.6875rem;
+        column-gap: 2.625rem;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        text-align: center; 
+        color: var(--neutral);
+        margin-bottom: 1.5rem;
+    }
+
+}
 
 /* @media screen and (min-width: 1400px) {
     .tracking-image {
@@ -253,7 +291,3 @@ footer {
     }
 
 } */
-
-@media screen (max-width: 20em) {
-    
-}
